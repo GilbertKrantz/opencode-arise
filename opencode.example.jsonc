@@ -1,0 +1,36 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "git+https://github.com/GilbertKrantz/opencode-arise.git#opencode-v2",
+      "options": {
+        "routing": {
+          "strategy": "balanced",
+          "route_primary": false,
+          "allow": [],
+          "deny": [],
+          "min_context": 16000,
+          "allow_unknown_prices": true,
+          "quality": {}
+        },
+        "agents": {
+          "beru": {
+            "strategy": "cheap"
+          },
+          "tank": {
+            "strategy": "cheap"
+          },
+          "igris": {
+            "strategy": "balanced"
+          },
+          "bellion": {
+            "strategy": "quality"
+          },
+          "shadow-sovereign": {
+            "strategy": "quality"
+          }
+        }
+      }
+    }
+  ]
+}

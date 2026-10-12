@@ -1,0 +1,4 @@
+Agent names, descriptions and prompts adapted from moinulmoin/opencode-arise (MIT).
+Upstream commit: 1c1b405146c4cfbed0dd9ac1c49aed5a6f84bf22
+https://github.com/moinulmoin/opencode-arise
+V2 adapter, routing, task lifecycle, configuration, installer and tests added in this port.
